@@ -7,6 +7,11 @@ Description: Custom Theme for ForksMA.com.
 Version: 1.0
 */
 
+body {
+    /* bootstrap will overide the color without important */
+    background-color: #EFECEC !important;
+}
+
 .bd-navbar {
     min-height: 4rem;
     background-color: #9f2727;
@@ -29,4 +34,27 @@ Version: 1.0
 
 .nav-item {
     font-size: 1.2rem;
+}
+
+.body-container {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    width: 35%;
+}
+
+.page-card {
+    background-color: #C0C5C1;
+    border: 1px solid #7D8491;
+    width: 100%;
+    margin-top: .5rem;
+    padding: 1rem;
+    border-radius: .25rem;
+}
+
+.footer-container {
+    text-align: center;
 }

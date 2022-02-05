@@ -1,5 +1,8 @@
 <footer class="site-footer">
-    <p><?php bloginfo( 'name' ) ?></p>
+    <hr>
+    <div class="footer-container">
+        &copy; Forks Martial Arts, Copyright 2022. All Rights Reserved.
+    </div>
 </footer>
 
 <?php wp_footer() ?>
