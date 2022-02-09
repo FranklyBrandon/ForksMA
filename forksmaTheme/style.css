@@ -13,7 +13,7 @@ body {
 }
 
 .bd-navbar {
-    min-height: 4rem;
+    min-height: 1rem;
     background-color: #9f2727;
     box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 10%);
 }
@@ -30,6 +30,12 @@ body {
 .navbar-brand {
     font-size: 1.25rem;
     font-weight: 500;
+    color: #fff;
+}
+
+.brand-header {
+    background-color: #9f2727;
+    text-align: center;
 }
 
 .nav-item {
